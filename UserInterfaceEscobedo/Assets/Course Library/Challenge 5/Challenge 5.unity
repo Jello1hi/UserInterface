@@ -1049,6 +1049,7 @@ MonoBehaviour:
   - {fileID: 5626452297013284046, guid: c5bbabce5ea79419488492993bfdadf0, type: 3}
   - {fileID: 3867821073191959212, guid: 591e0b0a9b4dd4709ad61b99dabf57ef, type: 3}
   isGameActive: 0
+  difficulty: 0
 --- !u!4 &1128873052
 Transform:
   m_ObjectHideFlags: 0
@@ -1921,9 +1922,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1128873050}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1128873051}
+        m_TargetAssemblyTypeName: GameManagerX, Assembly-CSharp
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
